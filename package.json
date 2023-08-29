@@ -1,0 +1,15 @@
+{
+  "name": "restaurantpageodinproject",
+  "version": "1.0.0",
+  "description": "practice project for npm,webpack,javascript,ES6 on odinproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thulasikan",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
