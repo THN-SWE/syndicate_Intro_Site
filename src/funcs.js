@@ -1,3 +1,4 @@
+import './style.css';
 
 function giveTextContent(text, element) {
     element.textContent = text;

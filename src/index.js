@@ -5,6 +5,8 @@ const title = document.createElement('span')
 const groupPic = document.createElement('img')
 const about = document.createElement('p')
 
+addClassestoElement(['plate','display-flex'], homeDiv)
+
 appendTohomeDiv(
     giveTextContent('Who are Syndicate', title), homeDiv
 );
