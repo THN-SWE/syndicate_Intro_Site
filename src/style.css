@@ -49,7 +49,7 @@ footer {
     /* from nav style  */
 
 
-    background-color: green;
+    background-color: greenyellow;
     padding: 20px;
 
     text-align: center;
@@ -67,7 +67,7 @@ footer {
 
     padding: 30px;
     /* margin: 20px; */
-    background-color:greenyellow;
+    background-color:green;
     border-radius: 10px;
 
 
@@ -76,4 +76,53 @@ footer {
 .display-flex{
     display: flex;
     flex-direction: column;
+}
+
+.intro{
+    font-size: 64px;
+    font-family:Trebuchet MS;
+    font-weight: 900;
+    color: aqua; 
+}
+.about-p{
+    font-size: 32px;
+    
+    font-family: monospace;
+    color: greenyellow;
+    font-weight: 500;
+
+}
+
+.quote_block{
+    color: rgba(255, 255, 255, 0.278);
+    background-color: rgba(0, 0, 0, 0.394);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    
+    border-left:10px solid greenyellow ;
+}
+
+@media (max-width:420px) {
+    .quote_block{
+        padding:10px;
+        margin: 10px 0;
+    }
+    .about-p{
+        font-size: 16px;
+    }
+    .intro{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .plate{
+        position: relative;
+        
+        margin: 0 20px;
+    
+        padding: 5px;
+      
+    
+    
+    }
 }

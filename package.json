@@ -4,7 +4,10 @@
   "description": "practice project for npm,webpack,javascript,ES6 on odinproject",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "git-push": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "thulasikan",
   "license": "ISC",
